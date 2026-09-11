@@ -1,25 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Polvillo Cultura</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#e21b1b">
+<title>Polvillo Cultura | Contacto</title>
 <style>
-body{font-family:Arial,sans-serif;background:#f5f5f5;margin:0;display:flex;justify-content:center;align-items:center;min-height:100vh}
-.card{background:white;max-width:420px;width:90%;padding:35px 25px;border-radius:20px;box-shadow:0 5px 25px #0002;text-align:center}
-h1{margin:0 0 10px;font-size:30px} p{color:#555;margin-bottom:28px}
-a{display:block;text-decoration:none;padding:16px;margin:12px 0;border-radius:12px;font-size:18px;font-weight:bold;background:#222;color:white}
-.phone{font-size:16px;color:#666;margin-top:20px}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;font-family:Arial,Helvetica,sans-serif;color:#18284f;background:radial-gradient(circle at 15% 10%,#fff 0%,#fff8ef 35%,transparent 60%),linear-gradient(135deg,#fffaf3,#f7e5d2)}
+.card{width:100%;max-width:460px;padding:25px 22px 30px;background:rgba(255,255,255,.97);border-radius:30px;border:2px solid rgba(226,27,27,.10);box-shadow:0 25px 70px rgba(24,40,79,.16);text-align:center}
+.logo{display:block;width:100%;max-width:390px;height:auto;margin:0 auto 10px;border-radius:18px}
+.subtitle{margin:0 0 25px;color:#6f6a63;font-size:15px;font-weight:600;letter-spacing:.3px}
+.actions{display:grid;gap:13px}
+.button{display:flex;align-items:center;gap:15px;width:100%;min-height:65px;padding:12px 17px;color:#fff;text-decoration:none;border-radius:18px;font-size:17px;font-weight:bold;box-shadow:0 8px 20px rgba(24,40,79,.13);transition:transform .2s ease,box-shadow .2s ease}
+.button:hover{transform:translateY(-3px);box-shadow:0 13px 28px rgba(24,40,79,.20)}
+.button:active{transform:scale(.98)}
+.icon{width:43px;height:43px;flex:0 0 43px;display:flex;align-items:center;justify-content:center;border-radius:13px;font-size:22px;background:rgba(255,255,255,.18)}
+.call{background:linear-gradient(135deg,#18284f,#273a69)}
+.whatsapp{background:linear-gradient(135deg,#19b957,#0b9e45)}
+.contact{background:linear-gradient(135deg,#f5b51b,#e59a00);color:#18284f}
+.button-text{text-align:left}
+.button-text strong{display:block;font-size:17px;line-height:1.2}
+.button-text span{display:block;margin-top:4px;font-size:12px;font-weight:normal;opacity:.8}
+.phone{margin-top:24px;padding-top:19px;border-top:1px solid #eee1d4;color:#777;font-size:13px}
+.phone strong{color:#e21b1b;font-size:15px}
+@media(max-width:400px){body{padding:12px}.card{padding:20px 15px 25px;border-radius:25px}.button{min-height:61px;font-size:16px}}
 </style>
 </head>
 <body>
-<div class="card">
-<h1>Polvillo Cultura</h1>
-<p>Contacto</p>
-<a href="tel:+34611729866">📞 Llamar · 611 729 866</a>
-<a href="https://wa.me/34611729866">💬 WhatsApp</a>
-<a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3APolvillo%20Cultura%0ATEL%3BTYPE%3DCELL%3A%2B34611729866%0AEND%3AVCARD">📇 Guardar contacto</a>
-<div class="phone">611 729 866</div>
+<main class="card">
+<img class="logo" src="a_clean_flat_vector_style_bold_friendly_logo_m.png" alt="Polvillo Cultura">
+<p class="subtitle">Contacto oficial</p>
+<div class="actions">
+<a class="button call" href="tel:+34611729866"><span class="icon">☎</span><span class="button-text"><strong>Llamar</strong><span>611 729 866</span></span></a>
+<a class="button whatsapp" href="https://wa.me/34611729866"><span class="icon">💬</span><span class="button-text"><strong>WhatsApp</strong><span>Escríbenos directamente</span></span></a>
+<a class="button contact" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3APolvillo%20Cultura%0ATEL%3BTYPE%3DCELL%3A%2B34611729866%0AEND%3AVCARD"><span class="icon">📇</span><span class="button-text"><strong>Guardar contacto</strong><span>Añadir Polvillo Cultura a tu agenda</span></span></a>
 </div>
+<div class="phone">Teléfono · <strong>611 729 866</strong></div>
+</main>
 </body>
 </html>
